@@ -1,6 +1,9 @@
 -- CRC-32: Cyclic Redundancy Check to verify data integrity (ISO 3309)
--- Copyright (C) by Pragmada Software Engineering
--- Released under the terms of the BSD 3-Clause license; see https://opensource.org/licenses
+-- Copyright (C) by PragmAda Software Engineering
+-- SPDX-License-Identifier: BSD-3-Clause
+-- See https://spdx.org/licenses/
+-- If you find this software useful, please let me know, either through
+-- github.com/jrcarter or directly to pragmada@pragmada.x10hosting.com
 
 package body CRC_32 is
    type CRC_Table is array (Interfaces.Unsigned_32 range 0 .. 255) of Interfaces.Unsigned_32;
